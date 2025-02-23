@@ -54,3 +54,8 @@ def outgoingRadiation(greenhouseCoefficient, temperature):
 and i dont understand why this didnt explode with temperature. although now that i write it i mean if you have 10^100 even 50% of that is still a massive number so the outgoing radiation likely did explode but the exploding factor was so big that it overflowed inspite of this
 
 what really seems to be happening is that with a high diffusion constant, the temperature at the equators quickly diffused away to the poles over and over. and the outgoing radiation did try to keep up but so much heat was being stored by the poles that it exploded. but this doesn't really make sense to me either. if diffusion is 0 that means no energy is being pushed away from the latitude it lands in. i didnt make any change to the total amount of heat energy coming in to the system or how much was removed, how did temperature possibly explode like this?
+
+----
+Feb 22 2025
+
+it's because youre a fuckin idiot and dont understand how np.roll works in 2d arrays with the default axis
